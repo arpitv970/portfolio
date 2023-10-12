@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+.app {
+  @apply font-poppins;
+}
+
+/* Navbar Styles */
+.navbar {
+  @apply fixed top-[57px] left-[145px] right-[145px];
+}
+
+.nav-list {
+  @apply flex justify-between items-center;
+}
+
+.nav-item {
+  @apply text-lightGrey text-3xl font-[500] tracking-[5.7px] cursor-pointer;
+}
+
+/* Hero Section Styles */
+
+
+/* Hero Section Styles */
+.hero-sec {
+  @apply h-[100vh] w-[100%] bg-grey flex flex-col mx-auto my-0 pt-[13%] pb-[7%] justify-between items-center;
+}
+
+.hero-sec > h1 {
+  @apply bg-gradient-to-r from-darkBlue to-blue bg-clip-text text-transparent text-7xl text-center font-[700];
+}
+
+.hero-sec > h2 {
+  @apply text-lightGrey text-5xl text-center font-[700] tracking-[5px] mx-[20%];
+}
