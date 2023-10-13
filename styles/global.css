@@ -37,3 +37,28 @@
 .hero-sec > h2 {
   @apply text-lightGrey text-5xl text-center font-[700] tracking-[5px] mx-[20%];
 }
+
+/* Generic Pages Styles */
+.gen-page {
+  @apply h-[100vh] w-[100%] flex flex-col mx-auto items-center;
+}
+
+.gen-title {
+  @apply text-4xl text-center font-[700] mt-[3rem];
+}
+
+.gen-subsection {
+  @apply border border-red-500 mt-[1rem];
+}
+
+.bgColor-grey {
+  @apply bg-grey text-lightGrey;
+}
+
+.bgColor-lightGrey {
+  @apply bg-lightGrey text-grey;
+}
+
+.bgColor-black {
+  @apply bg-black text-lightGrey;
+}
