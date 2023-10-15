@@ -62,3 +62,13 @@
 .bgColor-black {
   @apply bg-black text-lightGrey;
 }
+
+
+/* Brief section */
+.brief-intro-sec {
+  @apply border border-pink-500 w-[75%] mx-auto;
+}
+
+.my-profile {
+  @apply border border-pink-500 flex flex-col h-[100%];
+}
