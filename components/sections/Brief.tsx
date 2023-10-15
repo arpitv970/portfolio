@@ -1,27 +1,40 @@
 import GenericPages from "@/utils/GenericPages"
 import Image from "next/image"
+import { user } from '@/utils/index';
+import Socials from "../Socials";
+import Link from "next/link";
 
 const Brief = () => {
   return (
     <GenericPages title={'Brief Intro'} bgColor='lightGrey'>
       <section className='brief-intro-sec'>
-        <p>I am a Freelancer, Full-Stack Developer & Open-Source Contributor. Also, I have great work experience in building products & services for various startups. Being a curious developer, I am currently exploring the vast field of DevOps in as full-time role.</p>
+        <p className='brief-para'>
+          {
+            user.brief
+          }
+        </p>
         <section className='my-profile '>
           <Image
-            src='/assets/images/Arpit-img.svg'
-            alt='Arpit Verma'
+            src={user.avatar}
+            alt={user.name}
             height={100}
             width={100}
-          // fill
-          // style={{
-          //   objectFit: 'cover'
-          // }}
+            layout='responsive'
           />
-          <p>arpitv970@gmail.com</p>
+          <Link
+            href={`mailto:${user.email}`}
+            rel='noopener noreferrer'
+            target='_blank'
+            className='user-email'>
+            {user.email}
+          </Link>
+          <Socials />
         </section>
       </section>
-      <section></section>
-      <button></button>
+      <section className='resume-sec'>
+        <p className='brief-para'>For more about me checkout my Resume:</p>
+        <button className='btn mx-auto my-3'>Resume</button>
+      </section>
     </GenericPages>
   )
 }

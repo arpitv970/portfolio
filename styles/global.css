@@ -48,7 +48,7 @@
 }
 
 .gen-subsection {
-  @apply border border-red-500 mt-[1rem];
+  @apply mt-[1rem];
 }
 
 .bgColor-grey {
@@ -66,9 +66,32 @@
 
 /* Brief section */
 .brief-intro-sec {
-  @apply border border-pink-500 w-[75%] mx-auto;
+  @apply w-[75%] mx-auto flex justify-between items-center;
 }
 
 .my-profile {
-  @apply border border-pink-500 flex flex-col h-[100%];
+  @apply flex flex-col ml-5 w-[30%] h-[100%] justify-center items-center mx-auto;
+}
+
+.brief-para {
+  @apply text-2xl font-light w-[70%] flex flex-wrap mr-5 leading-loose tracking-wide;
+}
+
+.user-email {
+  @apply text-xl font-thin italic leading-loose tracking-widest my-3;
+}
+
+/* Socials */
+.user-socials {
+  @apply flex w-[100%] justify-between items-center mx-auto;
+}
+
+/* Resume */
+.resume-sec {
+  @apply flex flex-col w-[75%] justify-between items-start mx-auto my-3;
+}
+
+/* button */
+.btn {
+  @apply border border-black flex justify-center items-center bg-gradient-to-r from-darkBlue to-blue text-lightGrey font-bold w-[15vw] h-[10vh] text-3xl px-5 py-3 rounded-xl;
 }

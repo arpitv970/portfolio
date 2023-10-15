@@ -2,33 +2,29 @@ const iconPath = '/assets/icons/';
 const logoPath = '/assets/logo/';
 const images = '/assets/images/';
 
-export const user = {
-  name: 'Arpit Verma',
-  email: 'arpitv970@gmail.com',
-  phone: '+91 6375796873',
-  avatar: '/assets/images/Arpit-img.svg',
-  socials,
-  skills,
-  projects,
-  pricing,
-}
+
+const brief = 'I am a Freelancer, Full-Stack Developer & Open-Source Contributor. Also, I have great work experience in building products & services for various startups. Being a curious developer, I am currently exploring the vast field of DevOps in as full-time role.'
 
 const socials = [
   {
-    insta: 'https://www.instagram.com/arpitv970/',
-    logo: `${iconPath}/insta-icon.svg`,
-  },
-  {
-    github: 'https://github.com/arpitv970/',
+    plateform: 'GitHub',
+    url: 'https://github.com/arpitv970/',
     logo: `${iconPath}/github-icon.svg`,
   },
   {
-    linkedin: 'https://www.linkedin.com/in/arpitv970/',
+    plateform: 'Twitter',
+    url: 'https://twitter.com/arpitv970',
+    logo: `${iconPath}/twitter-icon.svg`,
+  },
+  {
+    plateform: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/arpitv970/',
     logo: `${iconPath}/linkedin-icon.svg`,
   },
   {
-    twitter: 'https://twitter.com/arpitv970',
-    logo: `${iconPath}/twitter-icon.svg`,
+    plateform: 'Instagram',
+    url: 'https://www.instagram.com/arpitv970/',
+    logo: `${iconPath}/insta-icon.svg`,
   },
 ];
 
@@ -112,3 +108,16 @@ const pricing = [
     ],
   },
 ];
+
+export const user = {
+  name: 'Arpit Verma',
+  email: 'arpitv970@gmail.com',
+  phone: '+91 6375796873',
+  avatar: '/assets/images/Arpit-img.svg',
+  brief,
+  socials,
+  skills,
+  projects,
+  pricing,
+}
+
