@@ -95,3 +95,28 @@
 .btn {
   @apply border border-black flex justify-center items-center bg-gradient-to-r from-darkBlue to-blue text-lightGrey font-bold w-[15vw] h-[10vh] text-3xl px-5 py-3 rounded-xl;
 }
+
+/* Project Section */
+.sub-header {
+  @apply text-2xl text-center font-[500] tracking-wide mb-5;
+}
+
+.projects-sec {
+  @apply grid grid-cols-2 gap-4 mt-5;
+}
+
+.ProjectCard {
+  @apply w-[30vw] flex gap-2 aspect-[5/2];
+}
+
+.project-title {
+  @apply w-[100vw] h-[100%] rounded-xl text-2xl font-[700] text-center flex justify-center items-center m-auto;
+}
+
+.project-desc {
+  @apply flex flex-col justify-between ml-auto mr-0 w-[100%];
+}
+
+.project-actions {
+  @apply font-[700] flex justify-between items-center w-[100%];
+}

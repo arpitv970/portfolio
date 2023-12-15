@@ -1,3 +1,5 @@
+import { ProjectType } from "./types";
+
 const iconPath = '/assets/icons/';
 const logoPath = '/assets/logo/';
 const images = '/assets/images/';
@@ -71,15 +73,35 @@ const skills = [
   },
 ];
 
-const projects = [
+export const projects: ProjectType[] = [
   {
-    pName: '#Project',
-    pDesc: [
-      'Project Description',
-      'Project Description',
-      'Project Description',
-    ],
+    title: "Project 1",
+    img: "project1.jpg",
+    bullets: ["Feature 1", "Feature 2"],
+    demo: "https://example.com/demo1",
+    code: "https://github.com/project1"
   },
+  {
+    title: "Project 1",
+    img: "project1.jpg",
+    bullets: ["Feature 1", "Feature 2"],
+    demo: "https://example.com/demo1",
+    code: "https://github.com/project1"
+  },
+  {
+    title: "Project 1",
+    img: "project1.jpg",
+    bullets: ["Feature 1", "Feature 2"],
+    demo: "https://example.com/demo1",
+    code: "https://github.com/project1"
+  },
+  {
+    title: "Project 1",
+    img: "project1.jpg",
+    bullets: ["Feature 1", "Feature 2"],
+    demo: "https://example.com/demo1",
+    code: "https://github.com/project1"
+  }
 ];
 
 const pricing = [
@@ -120,4 +142,5 @@ export const user = {
   projects,
   pricing,
 }
+
 
