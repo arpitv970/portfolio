@@ -9,7 +9,7 @@ const ProjectCard = ({
     <section className='ProjectCard'>
       <section className='project-title bgColor-lightGrey'>{title}</section>
       <section className='project-desc'>
-        <ul className='list-disc'>
+        <ul>
           {
             bullets.map((point, key) => {
               return (
