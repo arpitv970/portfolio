@@ -75,6 +75,7 @@ const skills = [
 
 export const projects: ProjectType[] = [
   {
+    id: 0,
     title: "Project 1",
     img: "project1.jpg",
     bullets: ["Feature 1", "Feature 2"],
@@ -82,6 +83,7 @@ export const projects: ProjectType[] = [
     code: "https://github.com/project1"
   },
   {
+    id: 1,
     title: "Project 1",
     img: "project1.jpg",
     bullets: ["Feature 1", "Feature 2"],
@@ -89,6 +91,7 @@ export const projects: ProjectType[] = [
     code: "https://github.com/project1"
   },
   {
+    id: 2,
     title: "Project 1",
     img: "project1.jpg",
     bullets: ["Feature 1", "Feature 2"],
@@ -96,6 +99,7 @@ export const projects: ProjectType[] = [
     code: "https://github.com/project1"
   },
   {
+    id: 3,
     title: "Project 1",
     img: "project1.jpg",
     bullets: ["Feature 1", "Feature 2"],

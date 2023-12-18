@@ -108,15 +108,15 @@
 }
 
 .projects-sec {
-  @apply grid grid-cols-2 gap-5 p-5 w-[90vw] mx-auto;
+  @apply grid grid-cols-2 gap-4 mx-auto my-auto px-3 w-[90vw] h-[100%];
 }
 
 .ProjectCard {
-  @apply flex flex-col gap-2 min-w-max;
+  @apply flex flex-col gap-4 w-[50%] aspect-[5/3] mx-auto rounded-xl cursor-pointer;
 }
 
 .project-title {
-  @apply w-[50%] aspect-[2/1] rounded-xl text-2xl font-[700] text-center flex justify-center items-center m-auto;
+  @apply w-[100%] aspect-[5/3] rounded-xl text-2xl font-[700] text-center flex justify-center items-center m-auto;
 }
 
 .project-desc {
@@ -132,5 +132,5 @@
 }
 
 .project-actions {
-  @apply font-[700] flex justify-around items-center w-[100%];
+  @apply font-[700] flex justify-around items-center w-[100%] mx-auto;
 }
