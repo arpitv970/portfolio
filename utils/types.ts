@@ -6,3 +6,8 @@ export interface ProjectType {
   demo: string,
   code: string,
 }
+
+export interface NavElementType {
+  pageTitle: string,
+  url: string
+}

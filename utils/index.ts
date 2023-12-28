@@ -1,4 +1,4 @@
-import { ProjectType } from "./types";
+import { NavElementType, ProjectType } from "./types";
 
 const iconPath = '/assets/icons/';
 const logoPath = '/assets/logo/';
@@ -147,4 +147,25 @@ export const user = {
   pricing,
 }
 
-
+export const navElements: NavElementType[] = [
+  {
+    pageTitle: 'Home',
+    url: '/'
+  },
+  {
+    pageTitle: 'About',
+    url: '/about'
+  },
+  {
+    pageTitle: 'Projects',
+    url: '/projects'
+  },
+  {
+    pageTitle: 'Services',
+    url: '/services'
+  },
+  {
+    pageTitle: 'Blogs',
+    url: '/blogs'
+  }
+]
