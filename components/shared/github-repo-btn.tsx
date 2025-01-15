@@ -17,7 +17,7 @@ export const GithubRepoBtn: React.FC<IGithubRepoBtn> = ({
       <Button
         size={children ? "default" : "icon"}
         className={cn(
-          "bg-gradient-to-bl text-primary from-blue-600 to-blue-900 z-10 drop-shadow-lg transition-all duration-300 ease-linear hover:drop-shadow-2xl",
+          "bg-gradient-to-bl text-white from-blue-600 to-blue-900 z-10 drop-shadow-lg transition-all duration-300 ease-linear hover:drop-shadow-2xl",
           className,
         )}
       >
